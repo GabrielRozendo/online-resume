@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
-title: Online Resume
-url:
+title: Gabriel Rozendo - online CV
+url: cv.gabriel.rozendo.dev
 baseurl:
 
 # Sass setting
@@ -9,15 +9,15 @@ sass/style: compressed
 # Privacy
 open: true                  # show or hide your resume
 allow_search_engines: true  # allow your resume indexing by search engine, 'true' or 'false'
-description:                # your resume description
+description: CV - Gabriel Rozendo # your resume description
 open_graph:
   enable: true                        # enable open graph meta tags
   image: /assets/images/profile.png   # path or link to the open graph image
 
 # Style
-date_format: "%Y-%m-%d"     # date format
-theme_color: "#1DA1F2"      # your favorite theme color
-contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
+date_format: "%d-%m-%Y"     # date format
+theme_color: "#000022"      # your favorite theme color
+contact_delimiter: "|"      # contact delimiter, '·', '/' or '|'
 section_icon: true          # section title icon, true or false
 section_title: uppercase    # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
 section_align: start        # section title align, 'start', 'end' or 'center'
@@ -32,6 +32,6 @@ analytics:
   google:                   # google
   cloudflare:               # cloudflare
   umami:                    # umami (Replace it with your own)
-    script: https://u.tarrex.com/u.js
-    website_id: af636e2d-31ae-46f1-9071-82b1745143a9
-    domains: tarrex.github.io,tarrex.com
+    script: https://u.rozendo.dev/u.js
+    website_id: 48951500-3139-4f72-a6c4-873cf85888f2
+    domains: gabrielrozendo.github.io,cv.gabriel.rozendo.dev
