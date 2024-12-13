@@ -326,14 +326,22 @@ small {
   margin-bottom: $spacing-unit;
   color: $text-second-color;
   width: 100%;
-  display: inline-flex;
-  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   font-size: $small-font-size;
 
   i {
-    color: $heart-color;
     padding: 0 $spacing-unit / 4;
+  }
+
+  .terminal-icon {
+    color: $terminal-color;
+  }
+  
+  .calendar-icon {
+    color: $calendar-color;
   }
 }
 

@@ -1,5 +1,5 @@
 # Welcome to Jekyll!
-title: Gabriel Rozendo - online CV
+title: Gabriel Rozendo CV
 url: cv.gabriel.rozendo.dev
 baseurl:
 
@@ -9,15 +9,15 @@ sass/style: compressed
 # Privacy
 open: true                  # show or hide your resume
 allow_search_engines: true  # allow your resume indexing by search engine, 'true' or 'false'
-description: CV - Gabriel Rozendo # your resume description
+description:  # your resume description
 open_graph:
-  enable: true                        # enable open graph meta tags
+  enable: false                        # enable open graph meta tags
   image: /assets/images/profile.png   # path or link to the open graph image
 
 # Style
-date_format: "%d-%m-%Y"     # date format
+date_format: "%d/%m/%Y"     # date format
 theme_color: "#000022"      # your favorite theme color
-contact_delimiter: "|"      # contact delimiter, '·', '/' or '|'
+contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
 section_icon: true          # section title icon, true or false
 section_title: uppercase    # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
 section_align: start        # section title align, 'start', 'end' or 'center'
@@ -31,7 +31,11 @@ site_footer: true           # show site footer, 'true' or 'false'
 analytics:
   google:                   # google
   cloudflare:               # cloudflare
-  umami:                    # umami (Replace it with your own)
-    script: https://u.rozendo.dev/u.js
+  umami:                    # umami
+    script: https://u.rozendo.dev/script.js
     website_id: 48951500-3139-4f72-a6c4-873cf85888f2
-    domains: gabrielrozendo.github.io,cv.gabriel.rozendo.dev
+    domains: cv.gabriel.rozendo.dev,127.0.0.1,localhost
+  tianji:
+    script: https://tianji.modelviewlabs.com/tracker.js
+    website_id: cm4n1js9t1r6wbqpugenm8orn
+

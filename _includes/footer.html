@@ -1,6 +1,13 @@
 <footer class="footer">
-  <span>Updated:&nbsp;</span>
-  <span>{{ site.time | date: site.date_format | default: "%Y-%m-%d" }}</span>
-  <i class="fa-solid fa-heart fa-beat-fade"></i>
-  <a href="https://github.com/tarrex/online-resume" target="_blank">Online-Resume</a>
+  <div>
+    <i class="fa-solid fa-terminal fa-beat-fade terminal-icon">&nbsp;</i>
+    Gabriel Rozendo&nbsp;|&nbsp;
+    <i class="fa-regular fa-calendar fa-bounce calendar-icon"></i>
+    Updated:&nbsp;
+      {{ site.time | date: site.date_format | default: "%Y-%m-%d" }}
+  </div>
+  <div>
+    Made with <a href="https://github.com/tarrex/online-resume" target="_blank">Online-Resume</a> and <a
+      href="http://jekyll-themes.com/">Jekyll</a>
+  </div>
 </footer>

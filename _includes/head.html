@@ -57,3 +57,11 @@
   {% if umami.domains %} data-domains="{{ umami.domains }}" {% endif %}></script>
 <!-- End Umami Web Analytics -->
 {%- endif %}
+
+{% assign tianji = site.analytics.tianji %}
+{%- if tianji.script and tianji.website_id %}
+<!-- Tianji Web Analytics -->
+<script async defer src="{{ tianji.script }}"
+  data-website-id="{{ tianji.website_id }}"></script>
+<!-- End Tianji Web Analytics -->
+{%- endif %}
