@@ -13,7 +13,7 @@ contact:
   location: 🌍 Lisbon, Portugal 🇵🇹 # location, text or markdown link syntax
   email: email@gabrielrozendo.com
   phone: +351 935949638 # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: cv.gabriel.rozendo.dev
+  website: CV.Gabriel.Rozendo.dev
 
   gender: Male #He/Him # gender or pronoun
   birthday: 16 Jan 1986 # birthday
@@ -135,7 +135,7 @@ experience:
         + Implemented CI/CD with BitBucket + CodeMagic
         + Developed mobile app for Transfácil with 148k monthly users
         
-        More info in project section
+        More info in project section 👇
 
     - company: Aubay
       link: https://aubay.pt
