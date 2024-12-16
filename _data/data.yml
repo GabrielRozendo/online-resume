@@ -113,8 +113,7 @@ profile:
 
 
   description: |
-    Forward-thinking software engineer with over 15 years of experience in mobile, backend, DevOps with Tech leader. Passionate about delivering impactful results, fostering teamwork, and driving digital transformation.
-
+    Forward-thinking software engineer with over 15 years of experience in Mobile, Backend, DevOps, as well as tech lead throughout this process. Passionate about delivering impactful results, promoting teamwork and driving digital transformation.
     Skilled in Agile methodologies, mentoring junior developers and building robust systems using cutting-edge technologies. Dedicated to lifelong learning.
 
 experience:
@@ -127,15 +126,13 @@ experience:
       link: 
       tags: Contract, Freelancer
       date: Since Jul 2022 <i class="fa-regular fa-spinner fa-spin-pulse"></i>
-      role: Software Architect, Flutter dev & Tech Leader
+      role: Software Architect, Flutter dev & Tech Leader / team builder
       location: Remote 🌎
       description: |
-        Contracted to build and grow the agency, create clients' projects, and provide leadership.
-        + Recreated Athletic Gear app from scratch using Dart/Flutter with MVVM architecture
-        + Implemented CI/CD with BitBucket + CodeMagic
-        + Developed mobile app for Transfácil with 148k monthly users
-        
-        More info in project section 👇
+        Contracted to build and grow the agency, create and recreate clients' projects and provide leadership to build a team.
+        + Project: Athletic Gear, recreate the both mobile apps + server backend with Dart (dart frog + drift) in AWS
+        + Project: BHBus+, recreate the mobile app. A navigation and public service tickets, using existent API rest.
+        + More info in project section 👇
 
     - company: Aubay
       link: https://aubay.pt
@@ -245,16 +242,17 @@ project:
   items:
     - name: Athletic Gear
       link: https://agsports.app
-      tags: Full Stack
+      tags: Mobile, Server, BackEnd, DevOps, Tech Lead 
       date: 2022 - Present
       description: |
-        Full stack mobile and web application
-        + Rebuilt using Dart/Flutter with MVVM architecture
-        + Implemented AWS AppRunner with Docker
-        + Utilized Firebase for notifications and analytics
-        + Rebuilt app for mobile and web using Dart/Flutter with MVVM.
+        Full operation role. Mobile, server, devops and build a team to maintance them all working, also improving with new features.
+        + Rebuilt using Flutter with MVVM architecture in both apps (also web version)
+        + Migrating from MobX to Riverpod
+        + Firebase for notifications and analytics, Sentry for error monitoring
+        + Built API Server with DartFrog + Drift + Postgres
         + Configured AWS AppRunner with Docker for seamless deployment.
-        + Integrated Firebase for analytics and notifications.
+        + CI/CD for apps and for server. 
+        The goal was release the MVP and test market. As it's validated, improving with better UI/UX, new features and preparing to constant updates.
 
     - name: Transfácil
       link: https://bhbus.com.br
@@ -263,7 +261,8 @@ project:
       description: |
         + Developed Flutter app for public transport ticketing and real-time bus tracking.
         + Designed UI/UX in collaboration with a design specialist using Figma.
-        + Achieved 148k monthly active users with minimal operational issues.
+        + Achieved 150k+ monthly active users with minimal operational issues.
+        + Growth the revenue from past app version to current one: 2k brazilian reais month to 2MM+ month in two years.
 
     - name: Readeck
       link: https://readeck.org
