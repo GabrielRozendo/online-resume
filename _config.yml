@@ -33,7 +33,7 @@ analytics:
   google:                   # google
   cloudflare:               # cloudflare
   umami:                    # umami
-    script: https://u.rozendo.dev/script.js
+    script: https://u.modelviewlabs.com/script.js
     website_id: 48951500-3139-4f72-a6c4-873cf85888f2
     domains: cv.gabriel.rozendo.dev,127.0.0.1,localhost
   tianji:
