@@ -78,11 +78,6 @@ small {
       border-bottom-color: rgba($theme-color, 0.25);
       border-bottom-width: 1px;
 
-      i::after {
-        content: "\00a0";
-        font-family: initial;
-      }
-
       h2 {
         font-size: inherit;
         margin-bottom: 0;
@@ -118,11 +113,6 @@ small {
       .degree {
         display: inline-flex;
         align-items: baseline;
-
-        i::after {
-          content: "\00a0";
-          font-family: initial;
-        }
       }
 
       .company,
@@ -206,11 +196,6 @@ small {
             color: $text-third-color;
             margin: 0 0.5em;
           }
-
-          i::after {
-            content: "\00a0";
-            font-family: initial;
-          }
         }
       }
     }
@@ -252,11 +237,6 @@ small {
           .skill-level {
             display: inline-flex;
             color: $text-third-color;
-
-            i:not(:last-child)::after {
-              content: "\00a0";
-              font-family: initial;
-            }
           }
         }
       }
@@ -334,6 +314,7 @@ small {
 
   i {
     padding: 0 $spacing-unit / 4;
+    color: $heart-color;
   }
 
   .terminal-icon {
