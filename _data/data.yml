@@ -4,13 +4,13 @@ meta:
 
 basic:
   name: Gabriel Oliveira Rozendo
-  title: Software Engineer | Flutter Engineer
+  title: Software Engineer
   avatar:
     show: false
     path: /assets/images/profile.png
 
 contact:
-  location: 🌍 Lisbon, Portugal 🇵🇹 # location, text or markdown link syntax
+  location: 🌍 Madrid, Spain 🇪🇸 # location, text or markdown link syntax
   email: email@gabrielrozendo.com
   phone: +351 935949638 # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: CV.Gabriel.Rozendo.dev
