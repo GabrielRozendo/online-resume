@@ -1,6 +1,7 @@
 User-agent: *
-{%- if site.allow_search_engine %}
-Allow: /
-{%- else %}
-Disallow: /
-{%- endif %}
+Allow: *
+<!-- {%- if site.allow_search_engine %} -->
+<!-- Allow: / -->
+<!-- {%- else %} -->
+<!-- Disallow: / -->
+<!-- {%- endif %} -->
